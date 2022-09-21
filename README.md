@@ -1,16 +1,9 @@
-# swuployee
+# SWUPLOYEE
 
-A new Flutter project.
+###### 본 어플리케이션은 서울여자대학교(Seoul Woman's University)의 바롬종합설계프로젝트3의 일환으로 제작되었습니다.
 
-## Getting Started
+● 사회 초년생들의 고용 노동과 근로 기준에 대한 인식 향상을 위한 법률 및 판례 정보<br>
+● 아르바이트/파트 타이머들의 생생한 현장을 이야기하는 커뮤니티<br>
+● 나의 정확한 월/주/일 급여와 퇴직금을 측정할 수 있는 계산기
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+등 다양한 기능을 포함하고 있습니다.
