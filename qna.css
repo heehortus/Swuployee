@@ -1,0 +1,247 @@
+
+.content
+{
+    font-family: 'Jua';
+    text-align: center;
+    font-size: 40px;
+    margin : 22.5vw auto;
+}
+
+.quiz_part_2
+{
+    margin-top: 120%;
+    font-family: 'Jua';
+    font-size: 30px;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}
+
+.quiz_part_3
+{
+    margin-top: 190%;
+    font-family: 'Jua';
+    font-size: 30px;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}
+
+.quiz_part_4
+{
+    margin-top: 260%;
+    font-family: 'Jua';
+    font-size: 30px;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}
+
+.quiz_part_5
+{
+    margin-top: 330%;
+    font-family: 'Jua';
+    font-size: 30px;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}
+
+.quiz_1
+{
+    margin-top: 60%;
+    font-family: 'Jua';
+    font-size: 18px;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    width: 500px;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}
+
+.quiz_2
+{
+    margin-top: 60%;
+    font-family: 'Jua';
+    font-size: 18px;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    width: 500px;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}
+
+.quiz_3
+{
+    margin-top: 60%;
+    font-family: 'Jua';
+    font-size: 18px;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    width: 500px;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}
+
+.quiz_4
+{
+    margin-top: 60%;
+    font-family: 'Jua';
+    font-size: 18px;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    width: 500px;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}
+
+.quiz_5
+{
+    margin-top: 60%;
+    font-family: 'Jua';
+    font-size: 18px;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    width: 500px;
+    text-align: center;
+    transform: translate( -50%, -50% );
+    padding-bottom: 50%;
+}
+
+/*모바일 환경*/
+@media (max-width: 767px)
+{
+    .content {
+        font-family: 'Jua';
+        text-align: center;
+        margin-top : 70%;
+    }
+
+    .quiz_title
+    {
+        font-size: 20px;
+    }
+
+    .quiz_part_2
+    {
+    margin-top: 300%;
+    font-family: 'Jua';
+    font-size: 18px;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    width: 300px;
+    text-align: center;
+    transform: translate( -50%, -50% );
+    }
+
+.quiz_part_3
+{
+    margin-top: 500%;
+    font-family: 'Jua';
+    font-size: 18px;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    width: 300px;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}
+
+.quiz_part_4
+{
+    margin-top: 700%;
+    font-family: 'Jua';
+    font-size: 18px;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    width: 300px;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}
+
+.quiz_part_5
+{
+    margin-top: 900%;
+    font-family: 'Jua';
+    font-size: 18px;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    width: 300px;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}
+
+.quiz_1
+{
+    margin-top: 65%;
+    font-family: 'Jua';
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    width: 300px;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}
+
+.quiz_2
+{
+    margin-top: 65%;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    width: 300px;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}
+
+.quiz_3
+{
+    margin-top: 65%;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    width: 300px;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}
+
+.quiz_4
+{
+    margin-top: 65%;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    width: 300px;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}
+
+.quiz_5
+{
+    margin-top: 110%;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    width: 300px;
+    text-align: center;
+    transform: translate( -50%, -50% );
+    padding-bottom: 100%;
+}
+
+}

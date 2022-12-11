@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&family=Noto+Sans+KR:wght@500&family=Poppins&&family=Jua&display=swap');
+
+#before
+{
+    font-family: 'Jua';
+    font-size: 25px;
+    position: absolute;
+	margin-top: 90%;
+	left: 50%;
+    text-align: center;
+    transform: translate( -50%, -50% );
+    background-color: #E0BFE6;
+}
+
+.part_1
+{
+    margin-top: 100%;
+    font-family: 'Jua';
+    font-size: 18px;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    width: 300px;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}
+
+.part_2
+{
+    margin-top: 200%;
+    font-family: 'Jua';
+    font-size: 18px;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    width: 300px;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}
+
+.part_3
+{
+    margin-top: 300%;
+    font-family: 'Jua';
+    font-size: 18px;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    width: 300px;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}
+
+#present
+{
+    font-family: 'Jua';
+    font-size: 25px;
+    position: absolute;
+    top: 390%;
+	left: 50%;
+    text-align: center;
+    transform: translate( -50%, -50% );
+    background-color: #E0BFE6;
+}
+
+.part_4
+{
+    margin-top: 500%;
+    font-family: 'Jua';
+    font-size: 18px;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    width: 300px;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}
+
+.part_5
+{
+    margin-top: 600%;
+    font-family: 'Jua';
+    font-size: 18px;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    width: 300px;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}
+
+#after
+{
+    font-family: 'Jua';
+    font-size: 25px;
+    position: absolute;
+    top: 600%;
+	left: 50%;
+    text-align: center;
+    transform: translate( -50%, -50% );
+    background-color: #E0BFE6;
+}
+
+.part_6
+{
+    margin-top: 800%;
+    font-family: 'Jua';
+    font-size: 20px;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    width: 300px;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}
+
+.part_7
+{
+    margin-top: 900%;
+    font-family: 'Jua';
+    font-size: 18px;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    width: 300px;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}
+
+.part_8
+{
+    margin-top: 1000%;
+    font-family: 'Jua';
+    font-size: 18px;
+    position: absolute;
+	top: 100%;
+	left: 50%;
+    width: 300px;
+    text-align: center;
+    transform: translate( -50%, -50% );
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SWUPLOYEE</title>
+    <link href="mobile.css" media="screen and (max-width: 767px)" rel="stylesheet">
+    <link href="tablet.css" media="screen and (min-width: 768px) and (max-width: 1023px)" rel="stylesheet">
+    <link href="desktop.css" media="screen and (min-width: 1024px)" rel="stylesheet">
+    <link href="info_mobile.css" media="screen and (max-width: 767px)" rel="stylesheet">
+    <link href="info_tablet.css" media="screen and (min-width: 768px) and (max-width: 1023px)" rel="stylesheet">
+    <link href="info.css" media="screen and (min-width: 1024px)" rel="stylesheet">
+    <link rel="stylesheet" href="qna.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script>history.scrollRestoration = "manual"</script>
+    <style>
+        header, body{
+            background-color: rgb(255, 232, 247);
+        }
+    </style>
+</head>
+<body>
+    <script>
+        AOS.init();
+    </script>
+    <header>
+        <a href="index.html"><h1 id="LOGO">SWUPLOYEE</h1></a>
+        <nav>
+        <input type="checkbox" id="menuicon">
+        <label for="menuicon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="sidebar">
+            <div class="menu">
+                <ul>
+                    <li id="col1">MENU</li></span>
+                </ul>
+                <hr class="menu_hr"></hr>
+                <ul>
+                    <a href="info.html"><li id="label">법률 정보</li></span></a>
+                        <ul>
+                            <li id="col2"><a href="info.html#before">근로 전</a></li>
+                            <li id="col2"><a href="info.html#present">근로 중</a></li>
+                            <li id="col2"><a href="info.html#after">근로 후</a></li>
+                        </ul>
+                </ul>
+                <ul>
+                    <a href="qna.html"><li id="label">QnA</li></span></a>
+                    <ul>
+                        <li id="col2"><a href="qna.html#qna">법률 정보 퀴즈</a></li>
+                    </ul>
+                </ul>
+                <ul>
+                    <a href="board_list.html"><li id="label">게시판</li></span></a>
+                </ul>
+                <ul>
+                    <a href="cal.html"><li id="label">급여 계산기</li></span></a>
+                </ul>
+            </div>
+        </div>
+        </nav>
+    </header>
+        <div class="content">
+            <div class="quiz_title" data-aos="fade-up" data-aos-delay="500" data-aos-easing="0.5em">아르바이트 법률 정보 퀴즈를 맞춰볼까요?</div>
+            <div class="part_1">1번.<br/>수습 기간에는 월급의 80%를 지급받는다?<br/><br/><br/>
+                정답은?
+                <div class="quiz_1"><img src="./img/content/quiz/002.png"></div>
+            </div>
+            <div class="quiz_part_2">2번.<br/>카페 아르바이트는 수습 기간 적용이 된다?<br/><br/><br/>
+                정답은?
+                <div class="quiz_2"><img src="./img/content/quiz/003.png"></div>
+            </div>
+            <div class="quiz_part_3">3번.<br/>휴게 시간의 지급 기준은 몇 시간일까?<br/><br/><br/>
+                정답은?<br/><br/>
+                <div class="quiz_3"><img src="./img/content/quiz/004.png"></div>
+            </div>
+            <div class="quiz_part_4">4번.<br/>출 퇴근 시 준비 시간도 근무 시간에 해당된다?<br/><br/><br/>
+                정답은?
+                <div class="quiz_4"><img src="./img/content/quiz/005.png"></div>
+            </div>
+            <div class="quiz_part_5">5번.<br/>아르바이트도 퇴직금을 받을 수 있다?<br/><br/><br/>
+                정답은?<br/><br/>
+                <div class="quiz_5"><img src="./img/content/quiz/006.png"></div>
+            </div>
+            <div class="scroll_button">
+                <img src="img/scroll_button.png">
+            </div>
+        </div>
+
+    </body>
+    </html>

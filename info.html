@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SWUPLOYEE</title>
+    <link href="mobile.css" media="screen and (max-width: 767px)" rel="stylesheet">
+    <link href="info_mobile.css" media="screen and (max-width: 767px)" rel="stylesheet">
+    <link href="tablet.css" media="screen and (min-width: 768px) and (max-width: 1023px)" rel="stylesheet">
+    <link href="info_tablet.css" media="screen and (min-width: 768px) and (max-width: 1023px)" rel="stylesheet">
+    <link href="desktop.css" media="screen and (min-width: 1024px)" rel="stylesheet">
+    <link href="info.css" media="screen and (min-width: 1024px)" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script>history.scrollRestoration = "manual"</script>
+    <script>
+        function findString() {            
+                if (str == "")
+                {
+                    swal({
+                    title: "이런!",
+                    text: "검색어를 입력해주세요!"
+                    })
+                }
+
+                else if(window.find(str, false, false, false, false, false, false) == false)
+                {
+                    swal({
+                    title: "이런!",
+                    text: "다시 입력해주세요!"
+                    })
+                }
+
+                else{
+                    window.find(str, false, false, false, false, false, false);
+                }
+        }
+
+            $(document).ready(function(){
+            $('.slider').bxSlider({
+                mode: 'horizontal',
+                captions: false,
+                slideWidth: 600
+            });
+        });
+    </script>
+    <style>
+        header, body{
+            background-color: rgb(215, 236, 250);
+        }
+
+        .swal-button
+        {
+            background-color: #E0BFE6;
+        }
+
+        .swal-title
+        {
+            font-size: 20px;
+            font-family: 'Jua';
+            font-weight: 400;
+        }
+
+        .swal-text
+        {
+            display: block;
+            text-align: center;
+            font-family: 'Noto Sans KR', sans-serif;
+            font-size: 15px;
+        }
+        
+    </style>
+</head>
+<body>
+    <script>
+        AOS.init();
+    </script>
+    <header>
+        <a href="index.html"><h1 id="LOGO">SWUPLOYEE</h1></a>
+        <nav>
+        <input type="checkbox" id="menuicon">
+        <label for="menuicon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <div class="sidebar">
+            <div class="menu">
+                <ul>
+                    <li id="col1">MENU</li></span>
+                </ul>
+                <hr class="menu_hr"></hr>
+                <ul>
+                    <a href="info.html"><li id="label">법률 정보</li></span></a>
+                        <ul>
+                            <li id="col2"><a href="info.html#before">근로 전</a></li>
+                            <li id="col2"><a href="info.html#present">근로 중</a></li>
+                            <li id="col2"><a href="info.html#after">근로 후</a></li>
+                        </ul>
+                </ul>
+                <ul>
+                    <a href="qna.html"><li id="label">QnA</li></span></a>
+                    <ul>
+                        <li id="col2"><a href="qna.html#qna">법률 정보 퀴즈</a></li>
+                    </ul>
+                </ul>
+                <ul>
+                    <a href="board_list.html"><li id="label">게시판</li></span></a>
+                </ul>
+                <ul>
+                    <a href="cal.html"><li id="label">급여 계산기</li></span></a>
+                </ul>
+            </div>
+        </div>
+        </nav>
+    </header>
+    <content>
+        <div class="text_1" >궁금한 점이 있다면 검색해보세요!</div>
+        <div class="search__container">
+            <input id="search__input" type="text" placeholder="입력해주세요">
+            <input class="search_button" type="button" value="검색" onclick="findString()">
+            <div class="text_3">PC버전만 검색 가능!</div>
+        </div>
+        <div id="content">
+            <div id="before">근로 전</div>
+            <div class="part_1">PART 1. 근로 계약서
+                <div class="slider">
+                    <div><img src="./img/content/before_1/002.png"></div>
+                    <div><img src="./img/content/before_1/003.png"></div>
+                    <div><img src="./img/content/before_1/004.png"></div>
+                    <div><img src="./img/content/before_1/005.png"></div>
+                    <div><img src="./img/content/before_1/006.png"></div>
+                    <div><img src="./img/content/before_1/007.png"></div>
+                    <div><img src="./img/content/before_1/008.png"></div>
+                    <div><img src="./img/content/before_1/009.png"></div>
+                </div>
+            </div>
+        
+            <div class="part_2" >PART 2. 아르바이트 근로자
+                <div class="slider">
+                    <div><img src="./img/content/before_2/002.png"></div>
+                    <div><img src="./img/content/before_2/003.png"></div>
+                    <div><img src="./img/content/before_2/004.png"></div>
+                    <div><img src="./img/content/before_2/005.png"></div>
+                    <div><img src="./img/content/before_2/006.png"></div>
+                    <div><img src="./img/content/before_2/007.png"></div>
+                    <div><img src="./img/content/before_2/008.png"></div>
+                    <div><img src="./img/content/before_2/009.png"></div>
+                </div>
+            </div>
+
+            <div class="part_3" >PART 3. 수습 기간
+                <div class="slider">
+                    <div><img src="./img/content/before_3/002.png"></div>
+                    <div><img src="./img/content/before_3/003.png"></div>
+                    <div><img src="./img/content/before_3/004.png"></div>
+                    <div><img src="./img/content/before_3/005.png"></div>
+                    <div><img src="./img/content/before_3/006.png"></div>
+                    <div><img src="./img/content/before_3/007.png"></div>
+                    <div><img src="./img/content/before_3/008.png"></div>
+                    <div><img src="./img/content/before_3/009.png"></div>
+                </div>
+            </div>
+
+            <div id="present">근로 중</div>
+            <div class="part_4" >PART 1. 수습 기간
+                <div class="slider">
+                    <div><img src="./img/content/present_1/001.png"></div>
+                    <div><img src="./img/content/present_1/002.png"></div>
+                    <div><img src="./img/content/present_1/003.png"></div>
+                    <div><img src="./img/content/present_1/004.png"></div>
+                    <div><img src="./img/content/present_1/005.png"></div>
+                    <div><img src="./img/content/present_1/006.png"></div>
+                    <div><img src="./img/content/present_1/007.png"></div>
+                    <div><img src="./img/content/present_1/008.png"></div>
+                </div>
+            </div>
+
+            <div class="part_5" >PART 2. 수습 기간
+                <div class="slider">
+                    <div><img src="./img/content/present_2/001.png"></div>
+                    <div><img src="./img/content/present_2/002.png"></div>
+                    <div><img src="./img/content/present_2/003.png"></div>
+                    <div><img src="./img/content/present_2/004.png"></div>
+                    <div><img src="./img/content/present_2/005.png"></div>
+                    <div><img src="./img/content/present_2/006.png"></div>
+                    <div><img src="./img/content/present_2/007.png"></div>
+                </div>
+            </div>
+
+            <div id="after">근로 후</div>
+            <div class="part_6" >PART 1. 실업 급여
+                <div class="slider">
+                    <div><img src="./img/content/after_1/001.jpg"></div>
+                    <div><img src="./img/content/after_1/002.jpg"></div>
+                    <div><img src="./img/content/after_1/003.jpg"></div>
+                    <div><img src="./img/content/after_1/004.jpg"></div>
+                    <div><img src="./img/content/after_1/005.jpg"></div>
+                    <div><img src="./img/content/after_1/006.jpg"></div>
+                    <div><img src="./img/content/after_1/007.jpg"></div>
+                </div>
+            </div>
+
+            <div class="part_7" >PART 2. 퇴직금
+                <div class="slider">
+                    <div><img src="./img/content/after_2/001.jpg"></div>
+                    <div><img src="./img/content/after_2/002.jpg"></div>
+                    <div><img src="./img/content/after_2/003.jpg"></div>
+                    <div><img src="./img/content/after_2/004.jpg"></div>
+                    <div><img src="./img/content/after_2/005.jpg"></div>
+                    <div><img src="./img/content/after_2/006.jpg"></div>
+                    <div><img src="./img/content/after_2/007.jpg"></div>
+                    <div><img src="./img/content/after_2/008.jpg"></div>
+                </div>
+            </div>
+
+            <div class="part_8" >PART 3. 해고
+                <div class="slider">
+                    <div><img src="./img/content/after_3/001.png"></div>
+                    <div><img src="./img/content/after_3/002.png"></div>
+                    <div><img src="./img/content/after_3/003.png"></div>
+                    <div><img src="./img/content/after_3/004.png"></div>
+                    <div><img src="./img/content/after_3/005.png"></div>
+                    <div><img src="./img/content/after_3/006.png"></div>
+                    <div><img src="./img/content/after_3/007.png"></div>
+                </div>
+            </div>
+        </div>
+    </content>
+    </body>
+    </html>
